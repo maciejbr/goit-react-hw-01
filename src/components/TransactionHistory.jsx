@@ -22,6 +22,8 @@ const TransactionHistory = ({ items }) => {
   );
 };
 
+import PropTypes from "prop-types";
+
 TransactionHistory.propTypes = {
   items: PropTypes.array,
 };
